@@ -31,7 +31,7 @@
     function deelGetal(getal1, getal2){
         let antwoord = getal1 / getal2;
         if (getal2 == 0)
-            antwoord = "∞";
+            antwoord = "∞, delen door 0 kan niet, kies een ander getal";
         console.log("delen " + antwoord);
         delen.innerHTML = antwoord;
     }
