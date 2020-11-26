@@ -15,6 +15,10 @@ In het het bestand  [index.html](index.html) houd je een overzicht bij van wat j
 
 Plaats in deze readme een link naar het index bestand op je ma-cloud site.  
 http://31843.hosts1.ma-cloud.nl/Javascript-Achievements/index.html
+
 http://31843.hosts1.ma-cloud.nl/Javascript-Achievements/Javascript-les-1/index.html
+
+http://31843.hosts1.ma-cloud.nl/Javascript-Achievements/Javascript-online-les-2/start_1.html
+
 
 
