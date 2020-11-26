@@ -30,6 +30,8 @@
     }
     function deelGetal(getal1, getal2){
         let antwoord = getal1 / getal2;
+        if (getal2 == 0)
+            antwoord = "∞";
         console.log("delen " + antwoord);
         delen.innerHTML = antwoord;
     }
