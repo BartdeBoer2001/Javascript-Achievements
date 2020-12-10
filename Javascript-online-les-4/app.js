@@ -15,16 +15,20 @@ sphere.setRadius(0.5);
 sphere.setPosition(-3, 0, -5);
 
 // create some text
-const testText = new Text('Mediacollege Amsterdam WebXR');
+const testText = new Text('Javascript les 4');
 testText.setPosition(1.5, 0, -5);
 testText.setFontsize(10);
+testText.setColor("red");
 
 // create an image
 const image = new XRImage('assets/images/sampleImage.jpg');
 image.setPosition(-1.48819, 2.45839, -5);
 
+const image2 = new XRImage('assets/images/Lisse-049.jpg');
+image2.setPosition(-1.48819, 0.88128, -2.76627);
+
 // create a 360 image
-const image360 = new Sky('assets/360_world.jpg');
+const image360 = new Sky('assets/images/FolkertdeJong.jpg');
 
 const spotLight = new SpotLight();
 spotLight.setPosition(-3.39382, 4.72931, 1.37905);
