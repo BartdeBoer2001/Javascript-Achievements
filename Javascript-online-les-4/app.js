@@ -4,8 +4,8 @@ controls.enableMovement();
 
 // create a model
 const minecraftModel = new Model('assets/models/minecraft/scene.gltf');
-minecraftModel.setPosition(0, 1.54, -5);
-minecraftModel.setScale(0.1, 0.1, 0.1);
+minecraftModel.setPosition(-2.28592, 1.84418, -2.87118);
+minecraftModel.setScale(0.06, 0.06, 0.06);
 minecraftModel.setRotation(0, -36.95, 0);
 
 // create a primitive (sphere)
@@ -32,3 +32,8 @@ spotLight.setTarget(minecraftModel);
 
 // listen for an event
 minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));
+
+const cuberoom = new Model("assets/models/cube-room/cube-room.gltf");
+cuberoom.setPosition(-2.50535, 0.91001, -3.21484);
+cuberoom.setScale(0.33668, 0.44443, 0.16213);
+cuberoom.setRotation(0, -36.95, 0);
