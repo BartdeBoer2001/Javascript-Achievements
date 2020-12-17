@@ -83,7 +83,7 @@ function finishQuiz() {
   questionBox.style.display = "none";
   resultBox.style.display = "block";
   quizWrapper.style.background = "silver";
-  resultBox.innerHTML = "<h2>Jouw resultaat <br>goede antwoorden " + playerData.goodAnswers + "<br>foute antwoorden " + playerData.wrongAnswers + "</h2>";
+  resultBox.innerHTML = "<h2>Jouw resultaat <br>goede antwoorden " + playerData.goodAnswers + "<br>foute antwoorden " + playerData.wrongAnswers + "</h2>" + "De volgende quiz start in 5 seconden.";
   setTimeout(nextPage, 5000);
 }
 

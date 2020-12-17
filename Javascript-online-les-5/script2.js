@@ -79,7 +79,6 @@ function finishQuiz() {
   resultBox.style.display = "block";
   quizWrapper.style.background = "silver";
   resultBox.innerHTML = "<h2>Jouw resultaat <br>goede antwoorden " + playerData.goodAnswers + "<br>foute antwoorden " + playerData.wrongAnswers + "</h2>";
-  window.location.href = "index1.html";
 }
 
 init(); // start it

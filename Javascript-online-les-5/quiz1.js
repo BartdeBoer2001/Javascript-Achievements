@@ -1,75 +1,59 @@
 const quiz1 =
 {
-    "quizID": "Museum 1",
+    "quizID": "Game quiz",
     "quizMetaData":
     {
-        "title": "Lisser Art Museum",
-        "imageURI": "https://www.lamlisse.nl/wp-content/uploads/2018/03/LAM-Lisse-logo-white.svg"
+        "title": "Console release date quiz",
+        "imageURI": "https://ygz.nl/media/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/C/l/Classic_Mini_NES_-_Nintendo.jpg"
 
     },
     "quizContent":		
 		[
 			{
-				"question": "In welke plaats is museum LAM?",
+				"question": "In welk jaar kwam de NES uit in de US?",
 				"answers": [{
-						"answer": "Lisse",
-						"feedback": true
-					},
-					{
-						"answer": "Landgoed Keukenhof",
-						"feedback": true
-					},
-					{
-						"answer": "Sassenheim",
+						"answer": "15 juli 1983",
 						"feedback": false
 					},
 					{
-						"answer": "Haarlem",
-						"feedback": false
+						"answer": "18 oktober 1985",
+						"feedback": true
 					},
 					{
-						"answer": "Lammerschans",
+						"answer": "1 september 1986",
 						"feedback": false
 					}
 				]
 			},
 			{
-				"question": "LAM – Heeft de collectie een thema?",
+				"question": "Wanneer kwam de SNES uit in Japan?",
 				"answers": [{
-						"answer": "Street art",
+						"answer": "11 april 1992",
 						"feedback": false
 					},
 					{
-						"answer": "Food art",
+						"answer": "23 augustus 1991",
+						"feedback": false
+					},
+					{
+						"answer": "21 november 1990",
 						"feedback": true
-					},
-					{
-						"answer": "Colorfull art",
-						"feedback": false
-					},
-					{
-						"answer": "Kitsch art",
-						"feedback": false
 					}
 				]
 			},
 			{
-				"question": "Het zelfportret van Tom Friedman is gemaakt van: ?",
+				"question": "Wanneer kwam de Gamecube uit in Europa?",
 				"answers": [{
-						"answer": "spaghetti",
-						"feedback": false
-					},
-					{
-						"answer": "kauwgom",
-						"feedback": false
-					},
-					{
-						"answer": "winegums",
-						"feedback": false
-					},
-					{
-						"answer": "suikerklontjes",
+						"answer": "3 mei 2002",
 						"feedback": true
+					},
+					{
+						"answer": "14 september 2001",
+						"feedback": false
+					},
+					{
+						"answer": "18 november 2001",
+						"feedback": false
 					}
 				]
 			}
