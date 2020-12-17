@@ -1,0 +1,5 @@
+eigen quizvragen
+eigen afbeeldingen
+eindscherm wijzigen
+eigen kleurenpalet in CSS
+uitbreiden zodat tweede quiz start na quiz 1, of gebruiker laten kiezen
