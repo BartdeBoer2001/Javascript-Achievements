@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Dungeon Master</title>
+    </head>
+    <body>
+        <input type = "button" id = "button" value = "Roll for stats">
+        <p id="totalstats">Stats:</p>
+    </body>
+    <script>
+        document.getElementById("button").addEventListener("click", rollingForStats());
+
+        function rollingForStats(){
+            let stat1 = Math.floor(Math.random() * 7);
+            let stat2 = Math.floor(Math.random() * 7);
+            let stat3 = Math.floor(Math.random() * 7);
+            let stat4 = Math.floor(Math.random() * 7);
+            let numberarray = [stat1, stat2, stat3, stat4]
+            var lowest = numberarray[0];
+            for(var i = 1; i < numberarray.length; i++){
+                if(numberarray[i] < lowest){
+                    lowest = numberarray[i];
+                } 
+            }
+            var j = numberarray.indexOf(lowest);
+            numberarray.splice(j,1);
+            
+            total = numberarray[0] + numberarray[1] + numberarray[2]
+
+            totalstats.innerHTML = "Stats: " + total;
+
+            /*
+            let lowest = Math.min(...numberarray)
+            console.log(lowest)
+            delete numberarray.lowest
+            console.log(numberarray)*/
+        }
+    </script>
+</html>
